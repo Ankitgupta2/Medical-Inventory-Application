@@ -1,5 +1,5 @@
 from google.protobuf.symbol_database import Default
-from sqlalchemy.sql.elements import Label
+# from sqlalchemy.sql.elements import Label
 from sqlalchemy import create_engine, Column,Integer,String,Float, engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.sql.schema import ForeignKey
